@@ -17,6 +17,7 @@ export default class NavBar extends Component {
             navbarScroll
           >
             <Nav.Link href="http://localhost:3000/">Home</Nav.Link>
+            <Nav.Link href="http://localhost:3000/Favorites">Favorites</Nav.Link>
             <Nav.Link href="https://www.google.com/webhp?hl=en&ictx=2&sa=X&ved=0ahUKEwi8_qbC-Iv8AhVyk2oFHdq0BZwQPQgJ">Google</Nav.Link>
           </Nav>
         </Navbar.Collapse>

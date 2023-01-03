@@ -23,7 +23,6 @@ export default class SearchBox extends Component {
   render() {
     const {search_string} = this.state
     const { pokemon } = this.props
-    const {onSearchChange} = this
 
     const filtered_pokemon = pokemon.filter((poke) => {
         return(
